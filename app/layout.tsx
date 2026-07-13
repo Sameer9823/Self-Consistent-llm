@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
+import { dark } from "@clerk/themes";
 import { ThemeProvider } from "@/components/shared/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
@@ -50,7 +51,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider
+      appearance={{
+        baseTheme: dark,
+        variables: {
+          colorPrimary: "#C9A8FF",
+          colorBackground: "#12151C",
+          colorInputBackground: "#0B0E14",
+          colorInputText: "#ECEEF2",
+          colorText: "#ECEEF2",
+          colorTextSecondary: "#8A8FA3",
+          colorNeutral: "#8A8FA3",
+          borderRadius: "0.85rem",
+        },
+      }}
+    >
       <html
         lang="en"
         suppressHydrationWarning
