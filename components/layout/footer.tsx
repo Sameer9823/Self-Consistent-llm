@@ -16,7 +16,7 @@ export function Footer() {
         </p>
         <div className="flex items-center gap-4">
           <Link
-            href="https://github.com"
+            href="https://github.com/Sameer9823"
             target="_blank"
             className="text-ink-muted hover:text-inherit"
             aria-label="GitHub"
@@ -24,7 +24,7 @@ export function Footer() {
             <Github className="h-4 w-4" />
           </Link>
           <Link
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sameer-selokar-60435224b/"
             target="_blank"
             className="text-ink-muted hover:text-inherit"
             aria-label="LinkedIn"

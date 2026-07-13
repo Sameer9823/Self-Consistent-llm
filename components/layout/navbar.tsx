@@ -32,7 +32,7 @@ export function Navbar() {
             </Link>
           ))}
           <a
-            href="https://github.com"
+            href="https://github.com/Sameer9823"
             target="_blank"
             rel="noreferrer"
             className="text-ink-muted transition-colors hover:text-inherit"
