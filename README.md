@@ -117,6 +117,3 @@ Visit `http://localhost:3000`. The landing page is public; `/dashboard` and `/hi
 - Stream each model's tokens live instead of waiting for full completions.
 - Add per-provider retry/backoff and configurable timeouts.
 
-## Screenshots
-
-_Add screenshots of the landing page, dashboard, and results view here._
