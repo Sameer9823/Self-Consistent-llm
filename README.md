@@ -103,11 +103,6 @@ Visit `http://localhost:3000`. The landing page is public; `/dashboard` and `/hi
 
 ## Deployment (Vercel)
 
-1. Push this repo to GitHub.
-2. Import it in Vercel.
-3. Add all variables from `.env.local.example` under Project Settings → Environment Variables (Production and Preview).
-4. In Clerk's dashboard, add your Vercel domain to the allowed origins and update the publishable/secret keys for production.
-5. Deploy.
 
 ## Future improvements
 
