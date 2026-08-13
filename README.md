@@ -1,4 +1,4 @@
-# Self-Consistency Ai
+# Self-Consistency Ai  
 
 Ask one question. Get answers from **OpenAI**, **Gemini**, and **Llama** (via OpenRouter) in parallel, then let an OpenAI **evaluator** compare, strip out hallucinations, and merge the strongest ideas into a single synthesized answer — a practical implementation of the **Self-Consistency** prompting technique with multi-LLM orchestration instead of multi-sample voting from one model.
 
